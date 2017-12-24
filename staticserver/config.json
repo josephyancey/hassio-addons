@@ -9,5 +9,11 @@
   "schema": {},
   "ports": {
     "8000/tcp": 8000
+  },
+  "options": {
+    "pathtohost": "/config",
+  },
+  "schema": {
+    "pathtohost": "str",
   }
 }
