@@ -1,6 +1,6 @@
 {
 	"name": "Static File Server",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"slug": "staticserver",
 	"description": "Just serves static files",
 	"startup": "before",
@@ -9,10 +9,6 @@
 	"ports": {
 		"8000/tcp": 8000
 	},
-	"options": {
-		"pathtohost": "/config/static"
-	},
-	"schema": {
-		"pathtohost": "str"
-	}
+	"options": {},
+	"schema": {}
 }
