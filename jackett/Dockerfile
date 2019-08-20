@@ -1,5 +1,3 @@
 FROM linuxserver/jackett
-
-RUN sed -i "s|/config|/data|g" /config
-
 VOLUME [ "/data" ]
+RUN ln -s /data/jackett/ ~/.config/
