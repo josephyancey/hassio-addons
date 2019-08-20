@@ -1,3 +1,4 @@
 FROM linuxserver/jackett
 VOLUME [ "/data" ]
-RUN ln -s /data/jackett/ ~/.config/
+RUN mkdir -p /data/jackett
+RUN ln -s /data/jackett ~/.config
